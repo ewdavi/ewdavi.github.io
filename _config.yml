@@ -2,3 +2,4 @@ theme: jekyll-theme-leap-day
 title: ["Data Engineering"]
 description: ["A blog about data, science, and engineering."]
 TZ: America/New_York
+show_downloads: ["false"]
