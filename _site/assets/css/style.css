@@ -318,3 +318,5 @@ header { background: #BE7C3F; background-color: #BE7C3F; background-image: none;
 #banner .button { border: 1px solid #C16622; background: #C16622; background-color: #C16622; }
 
 #banner .button:hover { background: #E08D4F; background-color: #E08D4F; }
+
+#banner #logo { background: url(../images/dataengineering-logo.svg); }
