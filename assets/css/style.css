@@ -2,4 +2,4 @@
 ---
 
 @import "{{ site.theme }}"
-header {background-color: #BE7C3F}
+header {background-color: #BE7C3F; background: #BE7C3F; background-image:none}
