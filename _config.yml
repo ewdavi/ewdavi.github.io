@@ -2,3 +2,5 @@ theme: jekyll-theme-leap-day
 title: ["Data Engineering"]
 description: ["A blog about data, science, and engineering."]
 TZ: America/New_York
+permalink: /:year/:month/:title
+google_analytics: [UA-124583299-1]
