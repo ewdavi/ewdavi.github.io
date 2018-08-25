@@ -6,3 +6,4 @@ permalink: /:year/:month/:title
 google_analytics: [UA-124583299-1]
 pages_list:
   About: '/about'
+  Background: '/background'

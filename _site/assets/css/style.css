@@ -317,7 +317,7 @@ footer { color: #DDD; }
 
 header { background: var(--header-color); background-color: var(--header-color); background-image: none; }
 
-#banner { background: var(--banner-color); background-color: var(--banner-color); border-bottom-color: var(--banner-color); border-left-color: var(--banner-color); border-right-color: var(--banner-color); border-top-color: var(--banner-color); }
+#banner { background: var(--banner-color); background-color: var(--banner-color); border-bottom-color: var(--banner-color); border-left-color: var(--banner-color); border-right-color: var(--banner-color); border-top-color: var(--banner-color); text-align: right; padding-right: 75px; }
 
 #banneritem { position: relative; top: 15px; }
 
