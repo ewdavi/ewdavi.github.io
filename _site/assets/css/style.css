@@ -309,6 +309,7 @@ footer { width: 180px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 @media print, screen and (max-height: 680px) { footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
 @media print, screen and (max-height: 480px) { nav { display: none; }
   footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
+@media print, screen and (max-width: 480px) { #banner { display: block !important; max-width: 100%; padding-right: 75px; margin-right: 75px; } }
 :root { --background-color: #757575; --header-color: #E08D4F; --banner-color: #545AA7; --main-color: #C16622; }
 
 body { background-url: none; background: var(--background-color); background-color: var(--background-color); }
@@ -318,6 +319,8 @@ footer { color: #DDD; }
 header { background: var(--header-color); background-color: var(--header-color); background-image: none; }
 
 #banner { background: var(--banner-color); background-color: var(--banner-color); border-bottom-color: var(--banner-color); border-left-color: var(--banner-color); border-right-color: var(--banner-color); border-top-color: var(--banner-color); text-align: right; padding-right: 75px; }
+
+#banner #logo { float: right; padding-right: 0px; }
 
 #banneritem { position: relative; top: 15px; }
 
