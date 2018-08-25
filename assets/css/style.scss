@@ -2,15 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-@media print, screen and (max-width: 480px) {
-    #banner {
-	display: block!important;
-	max-width: 100%;
-	padding-right: 75px;	
-    }
-
-}
-
 :root {
     --background-color: #757575;
     --header-color: #E08D4F;
