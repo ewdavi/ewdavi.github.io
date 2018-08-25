@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<article>
+  <div class="entry">
+  <h1>{{ page.title }}</h1>
+  <em>{{ page.date | date_to_string }}</em><br/>
+  <em>Author: {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</em><br/>
+  <em>Tags: {{ page.tags | join: ", "}}</em>
+  <hr>
+  {{ content }}</div>
+
+<footer><!-- additional info --></footer>
+</article>

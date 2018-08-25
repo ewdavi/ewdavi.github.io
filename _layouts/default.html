@@ -22,7 +22,11 @@
       </header>
 
       <div id="banner">
-        <span id="logo"></span>
+      {% for page in site.pages_list %}
+       &nbsp;&nbsp;&nbsp;
+       <span id="banneritem"><a href="{{ page[1]  }}">{{ page[0] }}</a></span>
+      {% endfor %}
+      <a href={{ site.url }}><span id="logo"></span></a>
 
         {% if site.show_downloads %}
           <div class="downloads">

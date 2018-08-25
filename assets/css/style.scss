@@ -7,6 +7,10 @@ body {
     background: #757575;
     background-color: #757575;
 }
+footer {
+    color: #DDD;
+}
+
 header {
     background: #BE7C3F;
     background-color: #BE7C3F;
@@ -22,6 +26,15 @@ header {
     border-top-color: #5B8FA8;
 }
 
+#banneritem {
+    position: relative;
+    top: 15px;
+}
+
+#banneritem a {
+    color: #DDD
+}
+
 #banner .button {
     border: 1px solid #C16622;
     background: #C16622;
@@ -34,4 +47,8 @@ header {
 
 #banner #logo {
     background: url(../images/dataengineering-logo.svg);
+}
+
+nav ul a {
+    color: #DDD;
 }

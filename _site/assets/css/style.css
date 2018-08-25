@@ -311,12 +311,20 @@ footer { width: 180px; position: fixed; left: 50%; margin-left: -530px; bottom: 
   footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
 body { background-url: none; background: #757575; background-color: #757575; }
 
+footer { color: #DDD; }
+
 header { background: #BE7C3F; background-color: #BE7C3F; background-image: none; }
 
 #banner { background: #5B8FA8; background-color: #5B8FA8; border-bottom-color: #5B8FA8; border-left-color: #5B8FA8; border-right-color: #5B8FA8; border-top-color: #5B8FA8; }
+
+#banneritem { position: relative; top: 15px; }
+
+#banneritem a { color: #DDD; }
 
 #banner .button { border: 1px solid #C16622; background: #C16622; background-color: #C16622; }
 
 #banner .button:hover { background: #E08D4F; background-color: #E08D4F; }
 
 #banner #logo { background: url(../images/dataengineering-logo.svg); }
+
+nav ul a { color: #DDD; }
