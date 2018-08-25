@@ -309,22 +309,26 @@ footer { width: 180px; position: fixed; left: 50%; margin-left: -530px; bottom: 
 @media print, screen and (max-height: 680px) { footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
 @media print, screen and (max-height: 480px) { nav { display: none; }
   footer { text-align: center; margin: 20px auto; position: relative; left: auto; bottom: auto; width: auto; } }
-body { background-url: none; background: #757575; background-color: #757575; }
+:root { --background-color: #757575; --header-color: #E08D4F; --banner-color: #545AA7; --main-color: #C16622; }
+
+body { background-url: none; background: var(--background-color); background-color: var(--background-color); }
 
 footer { color: #DDD; }
 
-header { background: #BE7C3F; background-color: #BE7C3F; background-image: none; }
+header { background: var(--header-color); background-color: var(--header-color); background-image: none; }
 
-#banner { background: #5B8FA8; background-color: #5B8FA8; border-bottom-color: #5B8FA8; border-left-color: #5B8FA8; border-right-color: #5B8FA8; border-top-color: #5B8FA8; }
+#banner { background: var(--banner-color); background-color: var(--banner-color); border-bottom-color: var(--banner-color); border-left-color: var(--banner-color); border-right-color: var(--banner-color); border-top-color: var(--banner-color); }
 
 #banneritem { position: relative; top: 15px; }
 
 #banneritem a { color: #DDD; }
 
-#banner .button { border: 1px solid #C16622; background: #C16622; background-color: #C16622; }
+#banner .button { border: 1px solid var(--main-color); background: var(--main-color); background-color: var(--main-color); }
 
 #banner .button:hover { background: #E08D4F; background-color: #E08D4F; }
 
 #banner #logo { background: url(../images/dataengineering-logo.svg); }
 
 nav ul a { color: #DDD; }
+
+.borderless { border: none; }

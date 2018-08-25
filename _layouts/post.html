@@ -5,9 +5,13 @@ layout: default
 <article>
   <div class="entry">
   <h1>{{ page.title }}</h1>
+  <table class="borderless"><tr class="borderless"><td colspan=2 class="borderless">
   <em>{{ page.date | date_to_string }}</em><br/>
+  </td></tr><tr class="borderless"><td class="borderless">
   <em>Author: {% if page.author %}{{page.author}}{% else %}{{site.author}}{% endif%}</em><br/>
+  </td><td class="borderless">
   <em>Tags: {{ page.tags | join: ", "}}</em>
+  </td></tr></table>
   <hr>
   {{ content }}</div>
 

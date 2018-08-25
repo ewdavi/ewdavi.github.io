@@ -2,28 +2,34 @@
 ---
 
 @import "{{ site.theme }}";
+:root {
+    --background-color: #757575;
+    --header-color: #E08D4F;
+    --banner-color: #545AA7;
+    --main-color: #C16622;
+}
 body {
     background-url: none;
-    background: #757575;
-    background-color: #757575;
+    background: var(--background-color);
+    background-color: var(--background-color);
 }
 footer {
     color: #DDD;
 }
 
 header {
-    background: #BE7C3F;
-    background-color: #BE7C3F;
+    background: var(--header-color);
+    background-color: var(--header-color);
     background-image: none;
 }
 
 #banner {
-    background: #5B8FA8;
-    background-color: #5B8FA8;
-    border-bottom-color: #5B8FA8;
-    border-left-color: #5B8FA8;
-    border-right-color: #5B8FA8;
-    border-top-color: #5B8FA8;
+    background: var(--banner-color);
+    background-color: var(--banner-color);
+    border-bottom-color: var(--banner-color);
+    border-left-color: var(--banner-color);
+    border-right-color: var(--banner-color);
+    border-top-color: var(--banner-color);
 }
 
 #banneritem {
@@ -36,9 +42,9 @@ header {
 }
 
 #banner .button {
-    border: 1px solid #C16622;
-    background: #C16622;
-    background-color: #C16622;
+    border: 1px solid var(--main-color);
+    background: var(--main-color);
+    background-color: var(--main-color);
 }
 #banner .button:hover {
     background: #E08D4F;
@@ -51,4 +57,8 @@ header {
 
 nav ul a {
     color: #DDD;
+}
+
+.borderless {
+    border: none;
 }
