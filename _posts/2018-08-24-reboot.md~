@@ -1,8 +1,0 @@
----
-layout: post
-author: ewd
-tags: ["first post"]
-excerpt_separator: <!--more-->
----
-
-I decided the site needed a drastic reboot, tore down the old bootstrap page, and decided to try out [Jekyll](https://jekyllrb.com/). <!--more--> I'm not 100% sold on Jekyll yet, but the github hooks make it very easy to publish, and the native markdown is a bit friendlier and easier to use when compared to something like WordPress.
