@@ -5,5 +5,6 @@ TZ: America/New_York
 permalink: /:year/:month/:title
 google_analytics: [UA-124583299-1]
 pages_list:
+  Home: '/'
   About: '/about'
   Background: '/background'
