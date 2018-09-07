@@ -1,0 +1,14 @@
+---
+layout: post
+author: ewd
+tags: ["first post"]
+excerpt_separator: <!--more-->
+---
+
+I decided the site needed a drastic reboot, tore down the old bootstrap page, and decided to try out [Jekyll](https://jekyllrb.com/). <!--more--> I'm not 100% sold on Jekyll yet, but the github hooks make it very easy to publish, and the native markdown is a bit friendlier and easier to use when compared to something like WordPress.
+
+The cons so far involve the lack of general documentation.  It took a lot of fiddling to get things working "right", and I'm still not generally happy with the layout.  There don't seem to be a wealth of templates and layouts for Jekyll yet, just some general advice.  The pros seem to be that once you get things ironed out, the build system handles most details for you, and you can just write.
+
+My intention is to generally use this blog for my thoughts on science, engineering, and the topics I'm working on at the moment.  I'd love to use it to share some preliminary results and the like as well.
+
+Hello world.
