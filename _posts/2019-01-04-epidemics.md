@@ -17,7 +17,7 @@ The data for this, and the remaining examples in this post, are drawn directly f
 
 ![Overview of the 2007 Influenza Outbreak in Region 5](/assets/images/2007-Influenza-B-Overview.png)
 
-The figure above is an overview of the incidence of various strains of influenza witnessed by the CDC during 2007 for Region 5.  Most of the historical data at the CDC is broken into these regions, with more recent data also available at the state level, so it requires aggregating the us as follows:
+The figure above is an overview of the incidence of various strains of influenza witnessed by the CDC during 2007 for Region 5.  Most of the historical data at the CDC is broken into these regions, with more recent data also available at the state level, so it requires aggregating the US as follows:
 
 ![Region map as defined by HHS](/assets/images/regionsmap.jpg)
 
