@@ -15,8 +15,8 @@ As a note, I'm making use of the [XKCDify package](http://jakevdp.github.io/blog
 
 The data for this, and the remaining examples in this post, are drawn directly from the CDC.  I'm currently focusing heavily on problems of interest to the CDC and the study of epidemics and pandemics, so this post is partially just a product of my recent data dive.  The [Epidemiology and Prevention Branch in the Influenza Division](https://www.cdc.gov/flu/weekly/overview.htm) of the CDC has some excellent open data sets on Influenza available, so it's pretty simple to look at different outbreaks over time.
 
-![Overview of the 2007 Influenza Outbreak in Region 5](assets/images/2007-Influenza-B-Overview.png)
+![Overview of the 2007 Influenza Outbreak in Region 5](/assets/images/2007-Influenza-B-Overview.png)
 
 The figure above is an overview of the incidence of various strains of influenza witnessed by the CDC during 2007 for Region 5.  Most of the historical data at the CDC is broken into these regions, with more recent data also available at the state level, so it requires aggregating the us as follows:
 
-![Region map as defined by HHS](assets/images/regionsmap.jpg)
+![Region map as defined by HHS](/assets/images/regionsmap.jpg)
