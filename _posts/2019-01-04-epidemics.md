@@ -73,4 +73,4 @@ So how well does this model generalize?  Did we just get lucky with 2007 data?  
 
 ![2008 Influenza A Predictions from SIRS](/assets/images/2008-Influenza-A-Prediction.png)
 
-Sometimes even very simple models have a lot of power when modeling complex systems, even when fitting real data.
+Sometimes very simple models have a lot of power when modeling complex systems, even when fitting real data.
