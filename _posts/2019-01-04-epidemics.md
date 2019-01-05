@@ -69,7 +69,7 @@ incidence_observed = fluData['B']
 fraction_confirmed = incidence_observed.sum()/incidence_predicted.sum()
 ```
 
-So how well does this model generalize?  Did we just get lucky with 2007 data?  Or does this very simply model apply more generally?
+So how well does this model generalize?  Did we just get lucky with 2007 data?  Or does this very simple model apply more generally?
 
 ![2008 Influenza A Predictions from SIRS](/assets/images/2008-Influenza-A-Prediction.png)
 
