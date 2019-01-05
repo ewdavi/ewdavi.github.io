@@ -24,18 +24,21 @@ The figure above is an overview of the incidence of various strains of influenza
 The SIRS model itself is a differential equation based model aimed at modeling the dynamics of a population with the assumption that individuals begin as Susceptible, become Infected, and eventually Recover to a stage at which point they are either temporarily or permanently immune to reinfection.  Modeling this system in python is a pretty straight forward task:
 
 ```python
-# N is the total population for the region, we draw it from the US Census data.
+# N is the total population for the region, we draw it
+# from the US Census data.
 N = int(popData[popData['Year'] == int(popYear)][region]) #
-# I0, R0, and S0 are the initial states for the SIRS model.  We assume a single initial
-# case of infection.
+# I0, R0, and S0 are the initial states for the SIRS
+# model.  We assume a single initial case of infection.
 I0 = 1
 R0 = 0
 S0 = N - R0 - I0
 
-# The parameter gamma is a rate of infection.  We drew the estimate here from the
-# literature.
-# Rho here stands for r naught, and is the parameter of interest to most epidemiologists.
-# a future post will discuss finding this using stochastic optimization techniques.
+# The parameter gamma is a rate of infection.  We drew
+# the estimate here from the literature.
+# Rho here stands for r naught, and is the parameter
+# of interest to most epidemiologists. A future post
+# will discuss finding this using stochastic optimization
+# techniques.
 gamma = 1/3
 rho = 1.24
 beta = rho*gamma
@@ -57,8 +60,10 @@ w = [x/7 for x in t]
 ret = odeint(deriv, y0, t, args=(N, beta, gamma))
 S, I, R = ret.T
 
-# Our SIRS model predicts infected individuals, while the CDC data is in terms of
-# incidence of infection witnessed at labs, we correct for this difference in measure here.
+# Our SIRS model predicts infected individuals, while
+# the CDC data is in terms of incidence of infection
+# witnessed at labs, we correct for this difference
+# in measure here.
 incidence_predicted = -np.diff(S[0:len(S)-1:7])
 incidence_observed = fluData['B']
 fraction_confirmed = incidence_observed.sum()/incidence_predicted.sum()
