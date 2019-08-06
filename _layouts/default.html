@@ -14,9 +14,25 @@
     <![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
+<?php 
+  if (!empty($_SERVER['HTTP_CLIENT_IP'])) {
+  $ip=$_SERVER['HTTP_CLIENT_IP'];}
+  elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR'])) {
+  $ip=$_SERVER['HTTP_X_FORWARDED_FOR'];} else {
+  $ip=$_SERVER['REMOTE_ADDR'];}
+?>
+
   </head>
   <body>
 
+  <div class="results"></div>
+
+  <script type='text/javascript'>
+  document.querySelector('.results').innerHTML = 'Hello World!';
+
+  $('.results').html('Hello World!');
+  </script>
+</script>
       <header>
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
         <p>{{ site.description | default: site.github.project_tagline }}</p>
